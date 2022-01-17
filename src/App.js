@@ -4,6 +4,11 @@ import YTSearch from 'youtube-search-api';
 import VideoList from './components/VideoList';
 import SearchBar from './components/SearchBar.js';
 
+
+const API_KEY=''
+
+// const ytSearchApi=require('youtube-search-api');
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -12,8 +17,9 @@ class App extends React.Component {
     }
     this.videoSearch('music');
   }
+
   videoSearch(searchTerm) {
-    YTSearch({key: `${process.env.REACT_APP_API_KEY}`, term: searchTerm}, (data) => {
+    YTSearch({key: API_KEY, term: searchTerm}, (data) => {
       console.log(data);
       this.setState({
         videos: data
