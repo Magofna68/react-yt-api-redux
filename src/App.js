@@ -4,6 +4,7 @@ import React, {Component} from 'react';
 import VideoList from './components/VideoList';
 import SearchBar from './components/SearchBar.js';
 import YTSearch from 'youtube-api-search';
+import VideoDetail from './components/VideoDetail';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
@@ -11,16 +12,18 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      videos: []
+      videos: [],
+      selectedVideo: null,
     }
-    this.videoSearch('music');
+    this.videoSearch('nothing,nowhere.');
   }
 
   videoSearch(searchTerm) {
     YTSearch({key: API_KEY, term: searchTerm}, (data) => {
       console.log(data);
       this.setState({
-        videos: data
+        videos: data,
+        selectedVideo: data[0],
       })
     })
   }
@@ -28,6 +31,7 @@ class App extends React.Component {
     return (
       <div>
         <SearchBar />
+        <VideoDetail video={this.state.selectedVideo} />
         <VideoList videos={this.state.videos} />
       </div>
     )
