@@ -24,13 +24,15 @@ class App extends React.Component {
       this.setState({
         videos: data,
         selectedVideo: data[0],
-        
+
       })
     })
   }
   render () {
     return (
       <div>
+        <h2>Youtube API Project</h2>
+        <h5>Brandon Magofna</h5>
         <SearchBar onSearchTermChange={term => this.videoSearch(term)} />
         <VideoDetail video={this.state.selectedVideo} />
         <VideoList 
