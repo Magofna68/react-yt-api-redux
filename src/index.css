@@ -32,6 +32,8 @@ code {
 .list-group-item {
   background-image: url(https://media.istockphoto.com/photos/gray-abstract-background-picture-id497349550?b=1&k=20&m=497349550&s=170667a&w=0&h=fyntqdpTM6I9nrc2iixBHB3UacfjH8a47vpW1GEz4t4=);
   cursor: pointer;
+  margin-top: 1%;
+  border-radius: 10px;
   color: #eee;
 }
 
@@ -57,4 +59,8 @@ h2{
 
 h5{
   text-align: center;
+}
+
+div.video-description {
+  overflow: visible;
 }
