@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-yt-api-redux/static/css/main.513b8b07.css",
+    "main.js": "/react-yt-api-redux/static/js/main.e256aac7.js",
+    "index.html": "/react-yt-api-redux/index.html",
+    "main.513b8b07.css.map": "/react-yt-api-redux/static/css/main.513b8b07.css.map",
+    "main.e256aac7.js.map": "/react-yt-api-redux/static/js/main.e256aac7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.513b8b07.css",
+    "static/js/main.e256aac7.js"
+  ]
+}
