@@ -48,3 +48,10 @@ h5{
   color: darkslategray;
   margin: -10px 0 0 0;
 }
+
+#searchIcon {
+/* outline: solid; */
+outline-width: thin;
+border-color: white;
+margin: 0 3px -5px 0;
+}

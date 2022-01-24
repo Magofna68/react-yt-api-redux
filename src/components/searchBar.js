@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SearchIcon from '@mui/icons-material/Search';
 
 class searchBar extends React.Component {
   constructor(props) {
@@ -15,7 +16,13 @@ class searchBar extends React.Component {
   render() {
     return (
       <div className='search-bar'>
+        <SearchIcon 
+          id="searchIcon"
+          fontSize="medium"
+          color="white"
+        />
          <input 
+
           placeholder='Search...'
           value={this.state.term} 
           onChange={this.onInputChange} 
