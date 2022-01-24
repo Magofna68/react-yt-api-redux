@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/react-yt-api-redux/static/css/main.938f09b3.css",
-    "main.js": "/react-yt-api-redux/static/js/main.0aea180a.js",
+    "main.css": "/react-yt-api-redux/static/css/main.dcb10761.chunk.css",
+    "main.js": "/react-yt-api-redux/static/js/main.4caf9138.chunk.js",
+    "main.js.map": "/react-yt-api-redux/static/js/main.4caf9138.chunk.js.map",
+    "runtime~main.js": "/react-yt-api-redux/static/js/runtime~main.e178410e.js",
+    "runtime~main.js.map": "/react-yt-api-redux/static/js/runtime~main.e178410e.js.map",
+    "static/js/2.674f880d.chunk.js": "/react-yt-api-redux/static/js/2.674f880d.chunk.js",
+    "static/js/2.674f880d.chunk.js.map": "/react-yt-api-redux/static/js/2.674f880d.chunk.js.map",
     "index.html": "/react-yt-api-redux/index.html",
-    "main.938f09b3.css.map": "/react-yt-api-redux/static/css/main.938f09b3.css.map",
-    "main.0aea180a.js.map": "/react-yt-api-redux/static/js/main.0aea180a.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.938f09b3.css",
-    "static/js/main.0aea180a.js"
-  ]
+    "precache-manifest.6d5ad983e8854aac39b3e64d83f47471.js": "/react-yt-api-redux/precache-manifest.6d5ad983e8854aac39b3e64d83f47471.js",
+    "service-worker.js": "/react-yt-api-redux/service-worker.js",
+    "static/css/main.dcb10761.chunk.css.map": "/react-yt-api-redux/static/css/main.dcb10761.chunk.css.map"
+  }
 }
