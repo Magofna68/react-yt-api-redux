@@ -1,5 +1,6 @@
 import React from 'react';
 import VideoListItem from './VideoListItem';
+import {Container, Row, ListGroup } from 'react-bootstrap/';
 
 const VideoList = (props) => {
   const videoItems = props.videos.map((video) => {
@@ -12,11 +13,12 @@ const VideoList = (props) => {
     )
   })
   return (
-    // <div className='video-list'>
-      <ul className='col-md-4 list-group'>
-        {videoItems}
-      </ul> 
-    // </div>
+
+    <Container fluid="sm" className='video-list'> 
+       <ul className='col-md-4 list-group'>
+          {videoItems}
+        </ul> 
+    </Container>
   )
 }
 
