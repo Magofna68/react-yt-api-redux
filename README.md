@@ -1,10 +1,10 @@
 <p align="center">
   <big>||  &nbsp;&nbsp;&nbsp;<u><b> 
-  - React-YouTube-API: - 
+  - React(hooks)-YouTube-API: - 
   </b></u>&nbsp;&nbsp;&nbsp;  ||</big>
 </p>
 <p align="center">
-  <small>January 21st, 2022.</small>
+  <small>January 28st, 2022.</small>
 </p>
 <br>
 <p align="center">Changing the world one line of code at a time. </p>
@@ -18,7 +18,7 @@
         </a>
         ¨
         <a href="https://github.com/Magofna68/MessageBoard.Solution/issues">
-            <img src="https://img.shields.io/github/last-commit/Magofna68/react-yt-api-redux?style=plastic">
+            <img src="https://img.shields.io/github/last-commit/Magofna68/react-hooks-yt-api?style=plastic">
         </a>
         ¨
         <a href="https://linkedin.com/in/Magofna68">
